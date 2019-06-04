@@ -1,0 +1,95 @@
+Brand new finance manager - DFM - decentralized finance manager
+
+- What is enough before 4 of June
+	- Views
+		- Dashboard with mocks and links
+		- List projects
+		- Task list with filters
+		- Shopping lists (without real blockchain interaction)
+		- And shopping list view
+
+- Models
+	- Friend
+		- Name
+		- Email
+		- Phone
+	- Task
+		- Friend name
+		- Amount
+		- Currency
+		- Title
+		- Optional description
+		- Priority
+	- Shopping list
+		- Name
+		- Type (['long', 'short'])
+		- Positions
+		- Status
+	- Incomings
+
+- Views
+	- Dashboard (default) with links
+	- List projects
+		- Mechanism to update any contact from list
+		- Your/contact tasks link for each contact
+	- Task list
+		- A lot of filters
+		- with mechanism to add a new position or update existing one
+	- Shopping lists
+		- Mobile first (use cards)
+		- Cards for each shopping list
+		- After Clicking on card list is exapanded
+	- Shopping list
+		- Positions
+		- User may delete positions (but it has no interaction with blockchain)
+	- List of incomings
+		- With ability to add some
+
+- Key features
+	- Dashboard (before 4 of June will be mocked)
+		- Show your total balance
+			- Incomings - all tasks
+		- Show "you will spend" in 1 month
+		- Show "you will spend" in 3 month
+		- Show closest tasks (based on deadlines)
+		- Show tasks sorted by priority
+	- Projects
+		- Add new contact
+		- Show contact info and balance
+	- Tasks
+		- Add debt for a {new,existing} contact
+		- Add deadline or reminder for debt
+		- Update debt
+	- Shopping lists
+		- Short term (grocery shopping list)
+			- Shopping list templates
+		- Long term (household appliances, car, house)
+	- Notifications
+		- Notify about old unresolved tasks
+	- Future spendings listing
+		- Sorting (by priority, by date, ...)
+	- Incomings and spendings (out of platform)
+		- Declare incoming
+		- Declare money left (to predict your financial behaviours)
+		- In future it will be handled automatically using intergration with crypto and banks
+
+- Possible Features
+	- Tasks management
+		- Adding new debt
+		- Removing a debt
+		- Tasks listing
+		- Sum balance evaluating
+		- Task reminders
+		- Friends (projects) management
+			- Add new friend
+			- Invite friend
+			- Send notification to friend
+			- Show summing debt
+		- Simplify tasks with trusted friends
+	- Shopping lists
+		- Long term shopping plans
+		- Short term shopiing plans
+	- Payment integration
+		- With crypto (store private keys (encrypted of course))
+	- Priorities
+		- Add priority to tasks and shopping list position

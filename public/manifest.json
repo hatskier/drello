@@ -1,0 +1,10 @@
+{
+  "name": "DFM",
+  "start_url": "https://drelloapp.com",
+  "description": "Decentralized task manager",
+  "icons": [{
+    "src": "https://drelloapp-images.s3.amazonaws.com/drello-logo.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }]
+}
